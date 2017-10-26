@@ -1,0 +1,381 @@
+body {
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	background-color: #ccccff;
+	margin: 10px;
+}
+
+#mobile-nav {
+	position: fixed;
+	z-index: 100;
+	border: 1px solid green;
+}
+
+#menu-btn {
+	float: left;
+	border: 1px solid black;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+ 
+.menu-btn span {
+	display: block;
+	width: 30px;
+	height: 5px;
+	margin: 4px 0;
+	background: black;
+	z-index: 99;
+}
+ 
+.responsive-menu {
+	display: none;
+}
+ 
+.expand {
+	display: block !important;
+	background-color: #ccccff;
+	position: absolute;
+	float: left;
+	border: solid 1px black;
+	margin-left: 41px;
+}
+
+.expand li {
+	height: 25px;
+	width: 175px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 0px;
+	list-style-type: none;
+}
+
+.expand li a {
+	text-decoration: none;
+	color: black;	
+}
+
+.expand li a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+#banner {
+	margin-left: 10%;
+}
+
+#banner img {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+	#content {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+@media screen and (max-width: 474px) {
+	#content-text-area {
+		margin-right: 35%;
+	}
+}
+
+@media screen and (min-width: 475px) and (max-width: 699px) {
+	#content-text-area {
+		margin-right: 25%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	#content-text-area {
+		margin-right: 15%;
+	}
+}
+
+#rose-award-container {
+	float: right;
+	width: 91px;
+	height: 199px;
+}
+
+#rose-award-container iframe {		
+	width: 91px;
+	height: 199px;
+}
+
+#content .datatable {
+border: 1px solid #660000;
+border-collapse: collapse;
+width: 90%;
+margin-left: 2.5%;
+color: #000000;
+}
+
+#content .datatable col.odd {
+background-color: #FFFFCC;
+}
+
+#content .datatable col.even {
+background-color: #FFFF99;
+}
+
+#content .datatable td {
+border: 2px solid #CC9966;
+padding: 0.3em;
+}
+
+#content .datatable th {
+border: 2px solid #CC9966;
+background-color: #FFCC99;
+font-weight: bold;
+text-align: left;
+padding: 0.3em;
+}
+
+#content p.bold{
+font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+	#content iframe {
+		height: 315px;
+		width: 280px;
+		border: 0;
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+	#content iframe {
+		height: 315px;
+		width: 340px;
+		border: 0;
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#content iframe {
+		height: 315px;
+		width: 560px;
+		border: 0;
+		margin-left: 0;
+	}
+}
+
+#gallery {
+margin-left: 80%;
+margin-right: 20%;
+margin-top: -40%;
+}
+
+#gallery ul {
+list-style: none;
+}
+
+#gallery ul li {
+display: block;
+width: 152px;
+height: 102px;
+}
+
+#gallery ul li a {
+display: block;
+width: 150px; 
+height: 100px; 
+text-decoration: none; 
+border: 1px solid #000000;
+}
+
+#gallery ul li a img {
+display: block; 
+width: 150px;
+height: 100px;
+border: 0;
+}
+
+#gallery a span{
+color: #ccccff;
+}
+
+#gallery ul li a:hover {
+border-color: #dddddd;
+}
+
+#gallery ul li a:hover img {
+position: fixed;
+right: 30%;
+left: 30%;
+top: 20%;
+width: 600px;
+height: 433px;
+border: 1px solid #000000;
+}
+
+#gallery ul li a:hover span {
+position: fixed;
+left: 30%;
+top: 20%;
+width: ;
+color: black;
+background-color: white;
+}
+
+/* This rule is read by Galleria to define the gallery height: */
+#galleria {
+height:400px;
+}
+
+@media screen and (max-width: 320px) {
+	#social {
+		max-width: 180px;
+		max-height: 100px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+	#social {
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#social {
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#social {
+		max-width: 300px;
+		max-height: 100px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+	#social {
+		max-width: 350px;
+		max-height: 100px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#social {
+		max-width: 720px;
+		max-height: 180px;
+	}
+}
+
+#social li {
+list-style-type: none;
+}
+
+#social li a {
+text-decoration: none;
+}
+
+#social img {
+float: left;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .fbIcon  {
+    background: url('../assets/social/fb_50.png');
+	height: 50px;
+	width: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fbIcon  {
+    background: url('../assets/social/fb_100.png');
+	height: 100px;
+	width: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .tripIcon {
+    background: url('../assets/social/trip_50.png');
+	height: 50px;
+	width: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tripIcon {
+    background: url('../assets/social/trip_100.png');
+	height: 100px;
+	width: 100px;	
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .wtyIcon {
+    background: url('../assets/social/wty_50.png');
+	height: 50px;
+	width: 50px;	
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wtyIcon {
+    background: url('../assets/social/wty_100.png');
+	height: 100px;
+	width: 100px;	
+  }
+}
+
+@media screen and (max-width: 320px) {
+	#social img {
+		margin: 25px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+	#social img {
+		margin-top: 25px;
+		margin-left: 50px;
+		margin-right: 0px;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#social img {
+		margin-top: 40px;
+		margin-left: 110px;
+		margin-right: -10px;
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+	#copyright {
+		clear: both;
+		font-size: 70%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#copyright {
+		clear: both;
+		font-size: 70%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
