@@ -1,1 +1,1 @@
-"# clydehouse" 
+Clyde House Responsive Website 
